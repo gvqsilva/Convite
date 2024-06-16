@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.invitation-container {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.image-section {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.invitation-image {
+    width: 100%;
+    height: auto;
+}
+
+.text-section {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.text-section h1 {
+    font-size: 1.5em;
+    color: #D44C61;
+    margin: 0;
+}
+
+.text-section p {
+    font-size: 1em;
+    color: #444;
+    margin: 0.5em 0;
+}
+
+.date-time p {
+    font-size: 1.25em;
+    color: #D44C61;
+    margin: 5px 0;
+}
+
+.icons-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.icon {
+    text-align: center;
+    flex: 1 1 45%;
+    margin: 10px 0;
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.icon p {
+    font-size: 0.875em;
+    color: #D44C61;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #D44C61;
+    color: white;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+@media (min-width: 768px) {
+    .icon {
+        flex: 1 1 22%;
+    }
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+  }
+  .modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .modal-content img{
+    width: 85%;
+    border-radius: 5%;
+  }
+
+  .modal-content{
+    color: #D44C61;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .legenda{
+    font-weight: 800;
+    color: #D44C61;
+  }
+  
+  .pmodal{
+    margin-top: 1%;
+  }
+
+#ju{
+    border-radius: 40%;
+    margin-bottom: 15px;
+}
+
+#txt{
+    margin-bottom: 10px;
+}
